@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    </br>
+    <br>
 
     <table class="table">
         <tr>

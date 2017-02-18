@@ -16,12 +16,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Project name</a>
+            <a class="navbar-brand" href="<%=request.getContextPath() %>">Project name</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="${pageContext.request.requestURI eq '/' ? ' active' : ''}">
-                    <a href="/">Home</a>
+                    <a href="<%=request.getContextPath() %>">Home</a>
                 </li>
                 <li class="${pageContext.request.requestURI eq '/WEB-INF/views/about.jsp' ? ' active' : ''}">
                     <a href="about.html">About</a>
