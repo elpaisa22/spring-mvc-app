@@ -1,0 +1,2 @@
+insert into User(nombre, edad, dni, fechaNacimiento) values ('John Snow', 33, '21354551', '23/07/1979')
+insert into User(nombre, edad, dni, fechaNacimiento) values ('Mother of Dragons', 36, '19598746', '05/01/1976')
