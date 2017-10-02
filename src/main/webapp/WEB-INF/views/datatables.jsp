@@ -51,7 +51,7 @@
 		            "serverSide": true,
 		            "pageLength": 10,
 		            "ajax": {
-		            	url : "api/users/list.json",
+		            	url : "api/users/list",
 		            	type : "POST"
 		            },
 		            "columns": [

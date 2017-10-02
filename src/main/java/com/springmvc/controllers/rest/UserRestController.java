@@ -30,8 +30,7 @@ public class UserRestController {
     private UserRepository repository;
 
 	@RequestMapping(value = "/api/users/list", 
-	                method = RequestMethod.POST,
-	                headers = {"Accept=text/xml, application/json"})
+	                method = RequestMethod.POST)
     public @ResponseBody DataTablesOutput users(@ModelAttribute DataTablesInput input) {
 
 		Order order = input.getOrder().get(0);
