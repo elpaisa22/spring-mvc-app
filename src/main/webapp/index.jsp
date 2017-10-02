@@ -2,12 +2,13 @@
 <head>
     <title>Spring MVC</title>
     <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
 </head>
 <body>
 
 <jsp:include page="/WEB-INF/templates/navbar.jsp"/>
 
-<div class="container" style="margin-top: 5%">
+<div class="container" style="margin-top: 7%; padding-left: 5%;">
 
     <div class="row">
         <h1>Bootstrap starter template</h1>

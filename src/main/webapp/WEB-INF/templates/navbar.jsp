@@ -32,6 +32,9 @@
                 <li class="${pageContext.request.requestURI eq '/WEB-INF/views/userList.jsp' ? ' active' : ''}">
                     <a href="users.html">Usuarios</a>
                 </li>
+                <li class="${pageContext.request.requestURI eq '/WEB-INF/views/datatables.jsp' ? ' active' : ''}">
+                    <a href="datatables.html">Datatables</a>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

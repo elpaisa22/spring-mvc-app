@@ -1,5 +1,7 @@
 package com.springmvc.models;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,9 +11,14 @@ import javax.persistence.Id;
  * Created by Sebastian on 16/2/2017.
  */
 @Entity
-public class User {
+public class User implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 3110473085669183574L;
+
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nombre;

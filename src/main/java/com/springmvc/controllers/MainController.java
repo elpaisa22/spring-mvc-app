@@ -24,4 +24,9 @@ public class MainController {
         return new ModelAndView("contact", "message", message);
     }
 
+    @RequestMapping("/datatables")
+    public ModelAndView datatables() {
+        return new ModelAndView("datatables");
+    }
+
 }
